@@ -30,7 +30,8 @@ Git commands
 8. ls used to see files and folder and to also see hidden files use (ls -al).
 9. [git add] command to use to add files to staging area which means the which are not commited the changes but are ready to get commited.
 10. [git rm --cached <file>...] to unstage.
-11. [git commit -m "your msg"] to svae your chnges
+11. [git commit -m "your msg"] to commit means save your chnges to you repo.
 12. [git log] used to see the history of repo. It will show you all the commits that were made to the repository. use flag --oneline if to want to see only commit message.
 13. [git branch], [git branch branch-name], [git switch branch-name], [git switch -c dark-mode], [git checkout orange-mode] and to merge the differnt branch work to main branch then [git merge branch-name] , [git merge --abort], to rename branch [git branch -m <oldname> <newname>] and to delete [git branch -d <branchname> ]
+14. [git diff] 
 
