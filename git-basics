@@ -13,7 +13,8 @@ Terminology
                                                            [Repo]
                                                              ↙️
                                            [Github]⬅️ (git push)
-- Stage is a way to tell git to track a particular file or folder. staging area means ki files k changes commit nhi kiye hai par karne ko taiyaar hai
+- Stage is a way to tell git to track a particular file or folder. staging area means ki files k changes commit nhi kiye hai par karne ko taiyaar hai.
+- Gitignore is a file that tells git which files and folders to ignore. It is a way to prevent git from tracking certain files or folders.
 
 Git commands
 1. [git --version] - command to check the version
