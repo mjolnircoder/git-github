@@ -1,20 +1,22 @@
 Terminology
-- git is a software and github is a service where all code is hosted.
-- Repository is the collection of files and directory that are stored together. It is basically used to store and manage the code.
-- git config file that stores all the settings that you have changed. 
-- commit is a way to save your changes to your repository. It is a way to record your changes and make them permanent.
+- <git> is a software and github is a service where all code is hosted.
+- <Repository> is the collection of files and directory that are stored together. It is basically used to store and manage the code.
+- <git config file> that stores all the settings that you have changed. 
+- <commit> is a way to save your changes to your repository. It is a way to record your changes and make them permanent.
   Flow will be :   Write --> Add --> Commit  
-- Complete git flow :  (git init) ➡️ [working directory]
+- Complete git flow :  (git init) ➡️ <working directory>
                                       ⬇️
                                      (git add)
                                         ↘️       
-                                          [staging area] ➡️ (git commit)
+                                          <staging area> ➡️ (git commit)
                                                               ↙️
-                                                           [Repo]
+                                                           <Repo>
                                                              ↙️
-                                           [Github]⬅️ (git push)
-- Stage is a way to tell git to track a particular file or folder. staging area means ki files k changes commit nhi kiye hai par karne ko taiyaar hai.
-- Gitignore is a file that tells git which files and folders to ignore. It is a way to prevent git from tracking certain files or folders.
+                                           <Github>⬅️ (git push)
+- <Stage> is a way to tell git to track a particular file or folder. staging area means ki files k changes commit nhi kiye hai par karne ko taiyaar hai.
+- <Gitignore> is a file that tells git which files and folders to ignore. It is a way to prevent git from tracking certain files or folders.
+- <Branch> are a way to work on different versions of a project at the same time. They allow you to create a separate line of development that can be worked on independently of the main branch. This can be useful when you want to make changes to a project without affecting the main branch or when you want to work on a new feature or bug fix.
+- <Head> is a pointer to the the current branch you are working basiclly it points the latest commits in the current branch.
 
 Git commands
 1. [git --version] - command to check the version
@@ -30,5 +32,5 @@ Git commands
 10. [git rm --cached <file>...] to unstage.
 11. [git commit -m "your msg"] to svae your chnges
 12. [git log] used to see the history of repo. It will show you all the commits that were made to the repository. use flag --oneline if to want to see only commit message.
-13.
+13. git branch, git branch  branch-name, git switch branch-name
 
