@@ -1,0 +1,29 @@
+Terminology
+- git is a software and github is a service where all code is hosted.
+- Repository is the collection of files and directory that are stored together. It is basically used to store and manage the code.
+- git config file that stores all the settings that you have changed. 
+- commit is a way to save your changes to your repository. It is a way to record your changes and make them permanent.
+  Flow will be :   Write --> Add --> Commit  
+- Complete git flow :  (git init) ➡️ [working directory]
+                                      ⬇️
+                                     (git add)
+                                        ↘️       
+                                          [staging area] ➡️ (git commit)
+                                                              ↙️
+                                                           [Repo]
+                                                             ↙️
+                                           [Github]⬅️ (git push)
+- Stage is a way to tell git to track a particular file or folder. staging area means ki files k changes commit nhi kiye hai par karne ko taiyaar hai
+
+Git commands
+1. [git --version] - command to check the version
+2. [git status] - command in Git provides a snapshot of your working directory and staging area, showing you what changes have been made but not yet 
+   committed, and which files are being tracked by Git and shows current 
+3. [git config] --list - command displays all Git configuration settings in a hierarchical order, including system, global, and local settings.
+4. [git config --global user.email "adityajaiswal.it23@jecrc.ac.in"]
+5. [git config --global user.name "Aditya Jaiswal"]
+6. [git init]  - command will create a new folder on your system and initialize it as a git repository. This adds a hidden .git folder to your project.
+7. [ls -l] to check which are directory(w) and files(-). tujhe file ya folder ke baare mein zyada details deta hai — jaise size, date, permissions, owner, etc.
+8. ls used to see files and folder and to also see hidden files use (ls -al).
+9. [git add] command to use to add files to staging area which means the which are not commited the changes but are ready to get commited.
+10. [git rm --cached <file>...] to unstage.
