@@ -20,19 +20,35 @@ Terminology
 
 Git commands
 1. [git --version] - command to check the version
+
 2. [git status] - command in Git provides a snapshot of your working directory and staging area, showing you what changes have been made but not yet 
    committed, and which files are being tracked by Git and shows current 
+
 3. [git config] --list - command displays all Git configuration settings in a hierarchical order, including system, global, and local settings.
+
 4. [git config --global user.email "adityajaiswal.it23@jecrc.ac.in"]
 5. [git config --global user.name "Aditya Jaiswal"]
+
 6. [git init]  - command will create a new folder on your system and initialize it as a git repository. This adds a hidden .git folder to your project.
+
 7. [ls -l] to check which are directory(w) and files(-). tujhe file ya folder ke baare mein zyada details deta hai — jaise size, date, permissions, owner, etc.
+
 8. ls used to see files and folder and to also see hidden files use (ls -al).
+
 9. [git add] command to use to add files to staging area which means the which are not commited the changes but are ready to get commited.
-10. [git rm --cached <file>...] to unstage.
+
+10. [git rm --cached <file>...] to unstage the files.
+
 11. [git commit -m "your msg"] to commit means save your chnges to you repo.
+
 12. [git log] used to see the history of repo. It will show you all the commits that were made to the repository. use flag --oneline if to want to see only commit message.
+
 13. [git branch], [git branch branch-name], [git switch branch-name], [git switch -c dark-mode], [git checkout orange-mode] and to merge the differnt branch work to main branch then [git merge branch-name] ,to abort merge [git merge --abort], to rename branch [git branch -m <oldname> <newname>] and to delete [git branch -d <branchname> ]
+
 14. [git diff] [git diff --staged] [git diff <branchname1>..<branchname2>] is an informative command that shows the differences between two commits. It is used to compare the changes made in one commit with the changes made in another commit. Git consider the changed versions of same file as two different files. Then it gives names to these two files and shows the differences between them.
+
 15. [git stash] This command saves your changes in a temporary location. It is like a stack of changes that you can access later. to get list of stash[git stash list], to apply changes [git stash apply] or for specific [git stash apply stash@{0}] to show stash [ git stash show -p stash@{0}].
+  
+16. [git tag <tagname>] Tags are a way to mark a specific point in your repository. They are useful when you want to remember a specific version of your code or when you want to refer to a specific commit. Tags are like sticky notes that you can attach to your commits. 
+
 
