@@ -33,5 +33,6 @@ Git commands
 11. [git commit -m "your msg"] to commit means save your chnges to you repo.
 12. [git log] used to see the history of repo. It will show you all the commits that were made to the repository. use flag --oneline if to want to see only commit message.
 13. [git branch], [git branch branch-name], [git switch branch-name], [git switch -c dark-mode], [git checkout orange-mode] and to merge the differnt branch work to main branch then [git merge branch-name] , [git merge --abort], to rename branch [git branch -m <oldname> <newname>] and to delete [git branch -d <branchname> ]
-14. [git diff] 
+14. [git diff] [git diff --staged] [git diff <branchname1>..<branchname2>] is an informative command that shows the differences between two commits. It is used to compare the changes made in one commit with the changes made in another commit. Git consider the changed versions of same file as two different files. Then it gives names to these two files and shows the differences between them.
+15. [git stash] This command saves your changes in a temporary location. It is like a stack of changes that you can access later. [git stash list]
 
