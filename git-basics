@@ -1,5 +1,5 @@
 Terminology
-- <git> is a software and github is a service where all code is hosted.
+- <git> is a version control system to  and <github> is a service where all code is hosted or a git repo hosting service.
 - <Repository> is the collection of files and directory that are stored together. It is basically used to store and manage the code.
 - <git config file> that stores all the settings that you have changed. 
 - <commit> is a way to save your changes to your repository. It is a way to record your changes and make them permanent.
@@ -37,7 +37,7 @@ Git commands
 
 9. [git add] command to use to add files to staging area which means the which are not commited the changes but are ready to get commited.
 
-10. [git rm --cached <file>...] to unstage the files.
+10. [git restore --staged <file>...] to unstage the files.
 
 11. [git commit -m "your msg"] to commit means save your chnges to you repo.
 
@@ -53,6 +53,9 @@ Git commands
 
 17. [git rebase main] Git rebase is a powerful Git feature used to change the base of a branch. It effectively allows you to move a branch to a new starting point, usually a different commit, by “replaying” the commits from the original base onto the new base. This can be useful for keeping a cleaner, linear project history.
 Ensure you are on the branch you want to rebase: [git rebase main]
+
+18. [git reflog] Git reflog is a command that shows you the history of your commits. It allows you to see the changes that you have made to your repository over time. This can be useful for debugging and understanding the history of your project.
+
 
 
 
