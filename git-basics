@@ -60,6 +60,8 @@ Ensure you are on the branch you want to rebase: [git rebase main]
 
 20. [git push --all origin] [git push origin -M main], to push [git push --set-upstream origin master] or [git push -u origin master]
 
+21. [git branch -r] to see remote branch
+
 
 
 
