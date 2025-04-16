@@ -24,7 +24,7 @@ Git commands
 2. [git status] - command in Git provides a snapshot of your working directory and staging area, showing you what changes have been made but not yet 
    committed, and which files are being tracked by Git and shows current 
 
-3. [git config] --list - command displays all Git configuration settings in a hierarchical order, including system, global, and local settings.
+3. [git config --list] - command displays all Git configuration settings in a hierarchical order, including system, global, and local settings.
 
 4. [git config --global user.email "adityajaiswal.it23@jecrc.ac.in"]
 5. [git config --global user.name "Aditya Jaiswal"]
@@ -51,4 +51,4 @@ Git commands
   
 16. [git tag <tagname>] Tags are a way to mark a specific point in your repository. They are useful when you want to remember a specific version of your code or when you want to refer to a specific commit. Tags are like sticky notes that you can attach to your commits. 
 
-
+17. 
