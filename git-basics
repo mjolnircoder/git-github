@@ -56,6 +56,7 @@ Ensure you are on the branch you want to rebase: [git rebase main]
 
 18. [git reflog] Git reflog is a command that shows you the history of your commits. It allows you to see the changes that you have made to your repository over time. This can be useful for debugging and understanding the history of your project.
 
+19. [git remote -v]  It shows the remote repositories connected to your local Git repo, along with their URLs. The -v stands for verbose, which just means "show more details.
 
 
 
