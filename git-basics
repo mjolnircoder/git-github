@@ -58,7 +58,8 @@ Ensure you are on the branch you want to rebase: [git rebase main]
 
 19. [git remote -v]  It shows the remote repositories connected to your local Git repo, along with their URLs. The -v stands for verbose, which just means "show more details. 
 
-20. [git push --all origin] [git push origin -M main]
+20. [git push --all origin] [git push origin -M main], to push [git push --set-upstream origin master] or [git push -u origin master]
+
 
 
 
