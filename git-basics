@@ -51,4 +51,8 @@ Git commands
   
 16. [git tag <tagname>] Tags are a way to mark a specific point in your repository. They are useful when you want to remember a specific version of your code or when you want to refer to a specific commit. Tags are like sticky notes that you can attach to your commits. 
 
-17. 
+17. [git rebase main] Git rebase is a powerful Git feature used to change the base of a branch. It effectively allows you to move a branch to a new starting point, usually a different commit, by “replaying” the commits from the original base onto the new base. This can be useful for keeping a cleaner, linear project history.
+Ensure you are on the branch you want to rebase: [git rebase main]
+
+
+
